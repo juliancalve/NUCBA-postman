@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./products.css">
+</head>
+<body>
+    <div class='main-container'>
+        <div>
+            <h2>Crear Producto</h2>
+            <form class="form-product">
+                <input placeholder="Name" type='text' id='productName'/>
+                <input placeholder="Price" type='number' id='productPrice' />
+                <button type="button" id='createProduct'>Create</button>
+            </form>
+        </div>
+        <div>
+            <h2>Products</h2>
+            <div class="product-container" id='product-container'>
+
+            </div>
+        </div>
+    </div>
+    <script src='./products.js'></script>
+</body>
+</html>

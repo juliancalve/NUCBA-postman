@@ -1,0 +1,16 @@
+.main-container {
+    display: flex;
+}
+
+.form-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-container {
+    display: flex;
+}
+
+.product {
+    margin: 30px;
+}
